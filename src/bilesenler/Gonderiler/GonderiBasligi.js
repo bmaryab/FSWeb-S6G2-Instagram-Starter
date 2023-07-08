@@ -2,7 +2,7 @@
 import React from "react";
 
 const GonderiBasligi = (props) => {
-  // 🔥 Bu bileşenin parentının aşağıdaki propları düzgün gönderdiğinden emin olun.
+  
   const { thumbnailUrl, username } = props;
 
   return (

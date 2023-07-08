@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Yorum = props => {
-  // 🔥 Bu bileşenin parentının aşağıdaki propları düzgün gönderdiğinden emin olun.
+  
   const { yorum } = props;
 
   return (
@@ -11,7 +11,7 @@ const Yorum = props => {
       {' '}
       <span className='comment'>{yorum.text}</span>
     </div>
-  );
+  )
 };
 
 
